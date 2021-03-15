@@ -13,5 +13,5 @@ setup(name='MonPremierPackage',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/MonPremierPackage-run'],
+      scripts=['scripts/MonPremierPackage-run','also-try-me'],
       zip_safe=False)
